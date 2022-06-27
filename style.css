@@ -1,0 +1,50 @@
+* {
+    margin: 0; padding: 0; border: 0; text-decoration: none;
+}
+
+
+main {
+    height: 100vh;
+    background: linear-gradient(#1555cb, #4d40d3);
+}
+
+.content {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.img-profile {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.div-links {
+    padding: 10px;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background: #0088aa;
+    color: white;
+    margin: 10px auto;
+    width: 70vw;
+    max-width: 500px;
+}
+
+.div-redes-sociais {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    max-width: 500px;
+}
+
+.icon-rede-social {
+    width: 60px;
+    margin: 0 10px;
+}
