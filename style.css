@@ -2,7 +2,9 @@
     margin: 0; padding: 0; border: 0; text-decoration: none;
 }
 
-
+body {
+    height: 100%;
+}
 main {
     height: 100%;
     background: linear-gradient(#1555cb, #4d40d3);
@@ -12,6 +14,8 @@ main {
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
+    background-color: #00ccff32;
+    backdrop-filter: blur(20px);
 }
 
 .img-profile {
@@ -44,7 +48,18 @@ main {
     max-width: 500px;
 }
 
+.div-redes-sociais > a {
+    background-color: orange;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
 .icon-rede-social {
-    width: 60px;
-    margin: 0 10px;
+    width: 100%;
 }
